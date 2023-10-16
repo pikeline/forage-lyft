@@ -1,5 +1,3 @@
-# Starter Repo
-This repo has everything you need to get started on the program, good luck!
+# info
 
-# test
-this is a test change
+I did this as a personal project to learn about professional coding principles and standards.
