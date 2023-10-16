@@ -1,9 +1,10 @@
 from battery.battery_ABC import Battery
+from datetime import datetime
 
 class NubbinBattery(Battery):
     '''requires last_service_date and current_date to be from the datetime class'''
     
-    def __init__(self, current_date, last_service_date) -> None:
+    def __init__(self, current_date: datetime, last_service_date: datetime) -> None:
         self.__last_service_date = last_service_date
         self.__current_date = current_date
     
